@@ -1,0 +1,67 @@
+.friend-requests {
+    margin-right: 5px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0, 0.3);
+    height: 450px;
+    position: sticky;
+    top: 75px;
+    overflow: hidden;
+    word-break: keep-all;
+}
+
+.friend-requests:hover {
+    overflow-y: auto;
+}
+
+.friend-requests::-webkit-scrollbar {
+    width: 5px;
+}
+
+.friend-requests::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+}
+
+.friend-requests>div {
+    list-style: none;
+    padding: 18px;
+    border-bottom: 2px solid rgb(112, 111, 111);
+}
+
+.friend-requests a {
+    text-decoration: none;
+    color: #e8e8e8;
+}
+
+.friend-requests a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.friend-requests .decision button {
+    height: 30px;
+    width: 70px;
+    margin: 3px 5px 0 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.friend-requests .decision button:hover {
+    cursor: pointer;
+}
+
+.friend-requests .accept-btn {
+    background-color: rgb(79, 79, 211);
+}
+
+.friend-requests .accept-btn:hover {
+    background-color: rgb(118, 118, 214);
+}
+
+.friend-requests .reject-btn {
+    background-color: rgb(154, 154, 160);
+}
+
+.friend-requests .reject-btn:hover {
+    background-color: rgb(181, 181, 184);
+}

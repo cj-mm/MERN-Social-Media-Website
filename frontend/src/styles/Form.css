@@ -1,0 +1,108 @@
+.form {
+    background: radial-gradient(#504d4d 0%, #0e0d0d 100%);
+    width: 30%;
+    height: 410px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-radius: 5%;
+    box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.67);
+}
+
+#login-form {
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.form h2 {
+    font-weight: 900;
+    color: white;
+}
+
+.form input {
+    margin: 10px;
+    width: 75%;
+    height: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.form input::placeholder {
+    color: rgba(230, 224, 224, 0.6);
+}
+
+.form input:focus {
+    outline: none;
+}
+
+#rep-password:disabled {
+    background: rgba(185, 119, 119, 0.555);
+}
+
+#error {
+    height: 23px;
+    margin: 0 5%;
+    color: rgb(255, 110, 110);
+    font-size: 0.8em;
+}
+
+#success {
+    margin: 30px 0 10px;
+    text-align: center;
+    color: rgb(72, 255, 0);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.s-success {
+    text-align: center;
+}
+
+.s-success button {
+    width: 200px;
+    height: 30px;
+    margin: 3px;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid rgb(107, 105, 105);
+    border-radius: 3px;
+    transition: 300ms;
+}
+
+.s-success button:hover {
+    background-color: rgb(147, 140, 240);
+    cursor: pointer;
+}
+
+#signup, #login {
+    width: 25%;
+    height: 30px;
+    margin: 12px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(59, 18, 50, 0.2);
+    box-shadow: 1px 2px 2px 1px rgba(245,245,245,0.58) inset;
+    color: rgb(224, 218, 218);
+}
+
+#signup:hover, #login:hover {
+    cursor: pointer;
+}
+
+.login {
+    text-align: center;
+}
+
+#create-account {
+    font-size: 1.1em;
+    color: rgb(92, 75, 240);
+    text-decoration: underline;
+}
+
+#create-account:hover {
+    cursor: pointer;
+}

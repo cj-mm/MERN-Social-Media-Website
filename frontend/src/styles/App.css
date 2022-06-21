@@ -1,0 +1,51 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1.85fr;
+    gap: 20px 0px;
+    grid-template-areas:
+      "header"
+      "contents";
+}
+
+.header { 
+    grid-area: header; 
+}
+
+.contents {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+    grid-template-rows: 1fr;
+    gap: 0px 10px;
+    grid-template-areas:
+        "friend-list main-content friend-requests";
+    grid-area: contents;
+    color: #e8e8e8;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4em 1.8fr;
+    grid-template-areas:
+        "create-post"
+        "posts";
+    grid-area: main-content;
+}
+
+.create-post { 
+    grid-area: create-post; 
+}
+
+.posts { 
+    grid-area: posts; 
+}
+
+.friend-list { 
+    grid-area: friend-list; 
+}
+
+.friend-requests {
+    grid-area: friend-requests; 
+}
+  

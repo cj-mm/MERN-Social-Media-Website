@@ -1,0 +1,50 @@
+.friend-list {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0, 0.3);
+    height: 450px;
+    position: sticky;
+    top: 75px;
+    overflow: hidden;
+    word-break: keep-all;
+}
+
+.friend-list:hover {
+    overflow: auto;
+}
+
+.friend-list::-webkit-scrollbar {
+    width: 5px;
+}
+
+.friend-list::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+}
+
+.friend-list ul {
+    list-style: none;
+    padding-left: 15px;
+}
+
+.friend-list li {
+    margin: 20px 0;
+}
+
+.friend-list a {
+    text-decoration: none;
+    color: #e8e8e8;
+    display: flex;
+    align-items: center;
+}
+
+.friend-list a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.friend-list img {
+    height: 35px;
+    width: 35px;
+    margin-right: 8px;
+}

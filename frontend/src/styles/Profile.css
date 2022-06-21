@@ -1,0 +1,53 @@
+.profile {
+    top: 75px;
+    position: absolute;
+    height: 100px;
+    width: fit-content;
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 70px 70px 120px 70px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: grey;
+    background: radial-gradient(#d5d5e6 1%, #5c5c5c 100%);
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: -21px 23px 18px 0px #000;
+}
+
+.profile #p-username {
+    font-weight: bold;
+    font-size: 4em;
+    color: black;
+}
+
+.profile #p-email {
+    font-size: 1.3em;
+    color: black;
+}
+
+.profile h2 {
+    font-size: 1.1em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.profile img {
+    height: 15px;
+    width: 15px;
+}
+
+.profile button {
+    height: 30px;
+    width: 90px;
+    background-color: rgb(102, 95, 95);
+    border: 1px solid rgb(156, 156, 235);
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 300ms;
+}
+
+.profile button:hover {
+    cursor: pointer;
+    background-color: rgb(211, 211, 211);
+}
